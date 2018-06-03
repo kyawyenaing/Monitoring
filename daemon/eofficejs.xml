@@ -1,0 +1,25 @@
+<service>
+	<id>eofficejs.exe</id>
+	<name>eofficeJS</name>
+	<description>Node service for Eoffice</description>
+	<executable>C:\Program Files\nodejs\node.exe</executable>
+	<logmode>rotate</logmode>
+	<argument>--harmony</argument>
+	<argument>C:\Users\ASUS\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js</argument>
+	<argument>--file</argument>
+	<argument>C:\xampp\htdocs\larav4\eoffice.js</argument>
+	<argument>--log</argument>
+	<argument>eofficeJS wrapper</argument>
+	<argument>--grow</argument>
+	<argument>0.25</argument>
+	<argument>--wait</argument>
+	<argument>1</argument>
+	<argument>--maxrestarts</argument>
+	<argument>3</argument>
+	<argument>--abortonerror</argument>
+	<argument>n</argument>
+	<argument>--stopparentfirst</argument>
+	<argument>undefined</argument>
+	<stoptimeout>30sec</stoptimeout>
+	<workingdirectory>C:\xampp\htdocs\larav4</workingdirectory>
+</service>

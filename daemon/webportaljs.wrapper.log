@@ -1,0 +1,58 @@
+2018-04-03 10:17:23 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\ASUS\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file C:\xampp\htdocs\larav4\webportal.js --log "webportalJS wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2018-04-03 10:17:23 - Started 9416
+2018-04-03 10:22:38 - Stopping webportaljs.exe
+2018-04-03 10:22:38 - ProcessKill 9416
+2018-04-03 10:22:49 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2018-04-03 10:25:10 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\ASUS\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file C:\xampp\htdocs\larav4\webportal.js --log "webportalJS wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2018-04-03 10:25:10 - Started 7240
+2018-04-25 10:41:37 - Stopping webportaljs.exe
+2018-04-25 10:41:37 - ProcessKill 7240
+2018-04-25 10:41:44 - Shutdown exception
+Message:The type initializer for 'System.Management.ManagementPath' threw an exception.
+Stacktrace:   at System.Management.ManagementScope._Clone(ManagementScope scope, IdentifierChangedEventHandler handler)
+   at System.Management.ManagementObjectSearcher..ctor(ManagementScope scope, ObjectQuery query, EnumerationOptions options)
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2018-04-25 10:44:33 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\ASUS\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file C:\xampp\htdocs\larav4\webportal.js --log "webportalJS wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2018-04-25 10:44:35 - Started 7092
+2018-05-16 10:13:29 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\ASUS\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file C:\xampp\htdocs\larav4\webportal.js --log "webportalJS wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2018-05-16 10:13:30 - Started 7008
+2018-05-21 10:20:40 - Stopping webportaljs.exe
+2018-05-21 10:20:40 - ProcessKill 7008
+2018-05-21 10:20:46 - Shutdown exception
+Message:The type initializer for 'System.Management.ManagementPath' threw an exception.
+Stacktrace:   at System.Management.ManagementScope._Clone(ManagementScope scope, IdentifierChangedEventHandler handler)
+   at System.Management.ManagementObjectSearcher..ctor(ManagementScope scope, ObjectQuery query, EnumerationOptions options)
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2018-05-21 10:23:21 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\ASUS\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file C:\xampp\htdocs\larav4\webportal.js --log "webportalJS wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2018-05-21 10:23:21 - Started 2796
+2018-05-21 10:26:12 - Stopping webportaljs.exe
+2018-05-21 10:26:12 - ProcessKill 2796
+2018-05-21 10:26:15 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2018-05-21 10:28:57 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\ASUS\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file C:\xampp\htdocs\larav4\webportal.js --log "webportalJS wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2018-05-21 10:28:57 - Started 6940
